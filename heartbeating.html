@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> heart 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: rgb(0, 0, 0);
+        }
+        .heart{
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        i{
+            color: #000;
+            font-size: 70px;
+            animation: beat 0.8s infinite;
+            text-shadow:
+                0 0 5px rgb(120, 13, 227),
+                0 0 45px rgb(96, 42, 150),
+                0 0 90px rgb(27, 27, 192);
+        }
+        @keyframes beat {
+            0% {transform: scale(1);}
+            20% {transform: scale(1.15);}
+            40% {transform: scale(1.4);}
+            60% {transform: scale(.9);}
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">
+        <i class="fa-solid fa-heart"></i>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "pt-br"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale 1.0">
+    <title> Pergunte aos Guri</title>
+   <style>
+        body {
+            margin: 0px;
+            background-color: black;
+            font: 23px Arial;
+            text-align: center;
+            color: whitesmoke;
+            stroke-width: 50px;
+            stroke: rgb(178, 21, 221)
+        }
+        button {
+            background-color: rgb(178, 21, 221);
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            font-size: 18px;
+            margin-top: 10px;
+            border-radius: 12px;
+            margin-bottom: 100px;
+        }
+        input {
+            text-align: center;
+            width: 10%;
+            height: 20px;
+            padding: 10px;
+            margin: 20px;
+            font-size: 18px;
+            border-radius: 12px;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: 150px;
+            background-color: rgb(178, 21, 221);
+            border-radius: 18px;
+            margin: 0 auto;
+        }
+        .user {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+    <body>
+        <h1> Pergunte ao Guri</h1>
+        <img height="400" src=https://i.pinimg.com/236x/95/f3/fa/95f3faa183213b952a267823ff867720.jpg alt="Cebolaço">
+        <div>
+            <input type="text" class="input1" placeholder="digite um número">
+            e
+            <input type="text" class="input2" placeholder="digite outro número">
+        </div>
+        <script>
+            function perguntou() {
+                var escolha = Math.floor(Math.random() * 10);
+                if (escolha % 2) {
+                    alert("O guri escolheu " + document.querySelector(".input1").value);
+                } else {
+                    alert("O guri escolheu " + document.querySelector(".input2").value);
+                }
+            }
+        </script>
+        <button type="button" onclick="perguntou()">Perguntar</button>
+        <div class="box">
+            <div class="user">@_pwdrinho</div>
+        </div>
+    </body>
+</html>
