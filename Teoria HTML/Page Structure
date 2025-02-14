@@ -1,0 +1,17 @@
+Estruturação de uma página Web:
+
+<Header>
+
+<Nav> 
+    
+<main>{
+    <Article> [ 
+        <header>                    <Div>[
+                                         
+        <section>                                     <Aside>
+        <figure>
+        <p>
+                                        ]
+    ]
+    <Footer>
+}
