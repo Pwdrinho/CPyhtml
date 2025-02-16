@@ -10,7 +10,7 @@ assim como,
 *<>*  **tag de abertura**
 *</>* **tag de fechamento**
 
-**<h1></h1>* - Define o início e o fim de um cabeçalho requer tag de abertura e fechamento 
+*<h1></h1>* - Define o início e o fim de um cabeçalho requer tag de abertura e fechamento 
 cabeçalho de nível 1 é o maior cabeçalho e
 assim por diante até o cabeçalho de nível 6
 sendo **h1** o maior e **h6** o menor
