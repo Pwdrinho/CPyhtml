@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: row center;
+            height: 100vh;
+            background-color: #f1f1f1;
+        }
+        .heart {
+            font-size: 20rem;
+            animation:heart .5s infinite alternate linear;
+        }
+        .h1 {
+            font-size: 2rem;
+            display: flex;
+            align-items: bottom;
+            padding: 43%;
+            
+        }
+
+        @keyframes heart {
+            from{
+                transform: scale(.6);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heart"> ❤️ </div>
+    
+</body>
+</html>
