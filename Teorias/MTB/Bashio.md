@@ -66,7 +66,7 @@ Este documento apresenta os principais comandos e operadores de entrada e saída
 - `stat` — Exibe informações detalhadas sobre arquivos.
 
 ## Comandos de Rede
-- `curl` — Realiza requisições para URLs (HTTP, FTP, etc.).
+- `curl` — Realiza requisições para URLs (*HTTP, FTP, etc.*).
 - `wget` — Baixa arquivos da internet.
 - `scp` — Copia arquivos entre sistemas via SSH.
 - `ssh` — Conecta a máquinas remotamente usando SSH.
