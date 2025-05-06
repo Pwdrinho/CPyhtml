@@ -2,14 +2,14 @@
 
 Este documento lista os principais comandos do editor Vim, baseados em sua documentação oficial, com breves descrições.
 
-## Modos de Operação
+## Modos de Operação [INSERT]
 - `Esc` — Voltar ao modo normal.
 - `i` — Inserir texto antes do cursor (modo de inserção).
 - `I` — Inserir no início da linha.
 - `a` — Inserir texto após o cursor.
 - `A` — Inserir no final da linha. // Colocando cursor no final da linha.
-- `o` — Nova linha abaixo.
-- `O` — Nova linha acima.
+- `o` — Adicionar uma Nova linha abaixo.
+- `O` — Adicionar uma Nova linha acima.
 - `v` — Iniciar seleção visual.
 - `V` — Selecionar linha inteira (modo visual linha).
 - `Ctrl+v` — Seleção em bloco (modo visual bloco).
@@ -30,8 +30,8 @@ Este documento lista os principais comandos do editor Vim, baseados em sua docum
 
 ## Edição de Texto
 - `x` — Apagar caractere sob o cursor.
-- `dd` — Apagar (cortar) linha inteira.
-- `yy` — Copiar linha inteira.
+- `dd` — Apagar (cortar) linha inteira. // para removermos linhas consecutivas usar, múltiplas vezes.
+- `yy` — Copiar a linha inteira.
 - `p` — Colar abaixo do cursor.
 - `P` — Colar acima do cursor.
 - `u` — Desfazer última alteração.
