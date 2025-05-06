@@ -7,7 +7,7 @@ Este documento lista os principais comandos do editor Vim, baseados em sua docum
 - `i` — Inserir texto antes do cursor (modo de inserção).
 - `I` — Inserir no início da linha.
 - `a` — Inserir texto após o cursor.
-- `A` — Inserir no final da linha.
+- `A` — Inserir no final da linha. // Colocando cursor no final da linha.
 - `o` — Nova linha abaixo.
 - `O` — Nova linha acima.
 - `v` — Iniciar seleção visual.
@@ -21,7 +21,7 @@ Este documento lista os principais comandos do editor Vim, baseados em sua docum
 - `k` — Move cursor para cima.
 - `0` — Início da linha.
 - `^` — Primeiro caractere não vazio da linha.
-- `$` — Fim da linha.
+- `$` — Fim da linha. // Mover o cursor para o final da linha atual.
 - `w` — Próxima palavra.
 - `b` — Palavra anterior.
 - `gg` — Início do arquivo.
@@ -41,11 +41,12 @@ Este documento lista os principais comandos do editor Vim, baseados em sua docum
 - `J` — Juntar linha atual com a próxima.
 
 ## Busca e Substituição
-- `/texto` — Buscar "texto" para frente.
-- `?texto` — Buscar "texto" para trás.
+- `/palavra` — Buscar "palavra" para frente.
+- `?palavra` — Buscar "palavra" para trás.
 - `n` — Próxima ocorrência.
 - `N` — Ocorrência anterior.
 - `:%s/antigo/novo/g` — Substituir todos "antigo" por "novo" no arquivo.
+- `:%s/palavra/nova/g` —Substituir todas as ocorrências de uma palavra.
 
 ## Arquivos e Buffers
 - `:w` — Salvar arquivo.
