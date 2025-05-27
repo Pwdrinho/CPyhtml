@@ -164,10 +164,30 @@ print(numeros) #Saída: [0, 2, 4, 6, 8]
 ## 8. Manipulação de Arquivos
 
 ### Leitura e Escrita em Arquivos
+#### `open` 
+A função `open()` é utilizada para a abertura dos arquivos.
+#### `write`
+A função `write()` é utilizada para gravar informações em um arquivo existente.
+#### `close`
+A função `close()` é utilizada para encerrar o arquivo após sua utilização.
+#### `read`
+A função `read()` realiza a leitura de todo o conteúdo do arquivo
+- Parâmetros:
+    - `‘r’` que representa que o arquivo está sendo aberto em **modo leitura**.
+
+    - `r+` Abre o arquivo para **leitura e escrita**. O arquivo deve já existir. A escrita começa a partir da primeira linha e, caso exista algo escrito no arquivo, as linhas serão reescritas, conforme formos escrevendo.
+    - `w` Abre o arquivo **somente para escrita**, no início do arquivo. Apagará o conteúdo do arquivo se ele já existir. Criará um arquivo novo se não existir.
+    - `w+` Abre o arquivo para **escrita e leitura**, apagando o conteúdo preexistente.
+    - `a` Abre o arquivo para **escrita no final do arquivo**. Não apaga o conteúdo preexistente.
+    - `a+` Abre o arquivo para **escrita no final do arquivo e leitura**.
+
+---
 ```python
+
 # Escrevendo em um arquivo
 with open("arquivo.txt", "w") as f:
     f.write("Olá, mundo!\n")
+    f.close()
 
 # Lendo um arquivo
 with open("arquivo.txt", "r") as f:

@@ -51,7 +51,7 @@ Este documento apresenta os principais comandos e operadores de entrada e saída
 - `locate` — Busca arquivos rapidamente usando um banco de dados indexado.
 
 ## Entrada Interativa
-- `read` — Lê entrada do usuário ou de arquivos.
+- `read`  Lê entrada do usuário ou de arquivos.
 - `select` — Cria menus interativos a partir de opções.
 
 ## Manipulação de Arquivos

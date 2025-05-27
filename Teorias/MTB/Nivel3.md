@@ -44,3 +44,5 @@ class ContadorDeOcorrencias:
                 ocorrencias[elemento] = 1
         return ocorrencias
 ```
+
+## Pergunta: Escreva um código que combine duas listas em uma 
