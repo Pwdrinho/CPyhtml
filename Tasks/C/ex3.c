@@ -48,11 +48,37 @@ int main() {
     printf("The value os pi is %.14lf and the value of e is %.14lf \n", pi, e);
 
     if(isOnline){
-        printf("The user %s is Online", name);
+        printf("The user %s is Online \n", name);
     }
     else{
-        printf("The user %s is Offline", name);
+        printf("The user %s is Offline \n", name);
     }
+
+
+    // width of format specifier
+
+    int num1 = 2;
+    int num2 = 20;
+    int num3 = 234;
+    int num4 = -2;
+
+    printf("%03d \n", num1);
+    printf("%+d \n", num1);
+    printf("%-d \n", num1);
+    printf("%d \n", num4);
+    printf("%05d \n", num2);
+    printf("%012d \n", num3);
+
+    // width precision flags
+
+    float price1 = 19.99;
+    float price2 = 1.50;
+    float price3 = -987.762;
+
+    printf("%.1f \n", price1);
+    printf("%+3.3f \n", price1);
+    printf("%.02f \n", price2);
+    printf("%.1f \n", price3);
 
     return 0;
 }
