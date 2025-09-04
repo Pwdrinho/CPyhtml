@@ -11,7 +11,7 @@ def potencia(a, b):
     return produto
 
 print("-----/-/-----")
-print("Entre com a e b")
+print("Insira valores para a e b \n")
 a = int(input("a:"))
 b = int(input("b:"))
 

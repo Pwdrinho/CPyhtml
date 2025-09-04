@@ -21,3 +21,7 @@
 - App Cofre de Conquistas
     - Um app mobile onde o usuário registra cada meta concluída e desbloqueia conquistas.
     - Ótimo para portfólio em Flutter ou React Native.
+
+- Pomodoro com GUI
+    - Timer programável
+    - Interface Gráfica personalizada
