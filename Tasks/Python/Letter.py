@@ -1,0 +1,20 @@
+# Mensagem para Menino Pedro do futuro 💌
+# Codédex
+
+print('+---------------------------------------------------------------------+')
+print('|                                                                     |')
+print('|                                                        set 2025     |')
+print('|                                                     Samambaia, DF   |')
+print('|         Caro menino Pedro,                                          |')
+print('|                                                                     |')
+print('|         Que esta carta não tenha se perdido no tempo,               |')
+print('|         No momento em que escrevo, estamos engatinhando             |')
+print('|         na nossa jornada como engenheiro de software,               |')
+print('|         mesmo nos momentos mais dificéis jamais desista             |')
+print('|         sempre lembre de tudo que está em jogo.                     |')
+print('|                                                                     |')
+print('|         Atenciosamente,                                             |')
+print('|                                                                     |')
+print('|                                                 Pelucas             |')
+print('|                                                                     |')
+print('+---------------------------------------------------------------------+')
