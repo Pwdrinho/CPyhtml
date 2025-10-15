@@ -13,10 +13,21 @@ Este documento apresenta todos os principais recursos e formatações suportadas
 ```
 
 ## Ênfase de Texto
+
+*Itálico* 
+
+**Negrito**
+
+~~Tachado~~ 
+
+<u>Sublinhado</u>
+
 ```markdown
 *Itálico* ou _Itálico_
 **Negrito** ou __Negrito__
 ~~Tachado~~
+<u>Sublinhado</u>
+__Sublinhado
 ```
 
 ## Listas
